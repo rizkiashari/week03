@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 3</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h3>Rizki Ashari</h3>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Task 3</button>
+          <div class="dropdown-content">
+          <a href="../Task1/task1.html">Task 1 (Make Database)</a>
+          <a href="../Task2/task2.html">Task 2 (Sentence Selection)</a>
+          <a href="./task3.html">Choose 2 Question in the previous week</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="forloop">
+      <div class="loop">
+        <div class="title">
+          <h3>Sequence</h3>
+        </div>
+        <input type="number" name="" class="input" id="input-loop">
+        <select class="select" id="selecting">
+          <option value="1">Multiples of one</option>
+          <option value="2">Multiples of Two</option>
+          <option value="3">Multiples of Three</option>
+        </select>
+        <button class="btn-second" id="loop">Click Me</button>
+        <div class="result">
+          <h3>Result:</h3>
+          <p id="output-loop" class="result-output">
+        
+          </p>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="countingLetter">
+      <div class="title">
+        <h3>Counting Letter</h3>
+      </div>
+      <input type="text" class="input" id="text-sentence" placeholder="Sentence">
+      <input type="text" placeholder="Find Letter" id="find-letter" class="input">
+      <button class="btn-second" id="letterBtn">Click Me</button>
+      <div class="result">
+        <h3>Result:</h3>
+        <p id="output-count" class="result-output">
+      
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="prime">
+      <div class="title">
+        <h3>Range Prime</h3>
+      </div>
+      <input type="text" class="input" id="range-start">
+      <input type="text" class="input" id="range-end">
+      <button class="btn-second" id="primeBtn">Click Me</button>
+      <div class="result">
+        <h3>Result:</h3>
+        <p id="output-range" class="result-output">
+      
+        </p>
+      </div>
+    </div>
+    <hr>
+    <div class="remove">
+      <div class="title">
+        <h3>Concatenate Arrays</h3>
+      </div>
+      <input type="number" class="input" id="concat-one">
+      <input type="number" id="concat-two" class="input">
+      <button class="btn-second" id="removeBtn">Click Me</button>
+      <div class="result">
+        <h3>Result:</h3>
+        <p id="output-concat" class="result-output">
+      
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

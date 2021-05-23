@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <h3>Rizki Ashari</h3>
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <div class="dropdown">
+          <button class="dropbtn">Task 2</button>
+          <div class="dropdown-content">
+          <a href="../Task1/task1.html">Task 1 (Make Database)</a>
+          <a href="./task2.html">Task 2 (Sentence Selection)</a>
+          <a href="../Task3/task3.html">Choose 2 Question in the previous week</a>
+          </div>
+        </div>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="content">
+      <textarea id="text-input" class="field-text" cols="30" rows="10" placeholder="paragraf"></textarea>
+    </div>
+    <div class="search">
+      <input type="text" id="input-search" placeholder="search sentence" class="input">
+      <button id="search-text" class="btn">Search</button>
+    </div>
+    <hr>
+    <div class="result">
+      <h3>Result:</h3>
+      <p id="output" class="result-output">
+        
+      </p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
